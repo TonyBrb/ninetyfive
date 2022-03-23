@@ -80,7 +80,7 @@ header .header-bottom {
 
 main {
   width: 100%;
-  min-height: 1000px;
+  min-height: 4000px;
   background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), linear-gradient(175.6deg, #231F20 10.94%, #94171C 100%);
 }
 
@@ -115,4 +115,277 @@ main .jumbotron .bw-box .jumbotron-box-btn {
   border: none;
   margin-top: 39px;
   font-weight: bold;
+}
+
+main .deal {
+  margin-bottom: 140px;
+  padding-top: 100px;
+}
+
+main .deal h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 60px;
+  margin-left: 162px;
+  font-weight: bold;
+}
+
+main .deal .bw-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .deal .bw-box h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 60px;
+}
+
+main .deal .bw-box .deal-card {
+  width: 232px;
+  height: 307px;
+  background-color: #fff;
+  margin-right: 30px;
+  margin-bottom: 140px;
+}
+
+main .deal .bw-box .deal-card .deal-card-photo {
+  width: 100%;
+  padding: 16px;
+}
+
+main .deal .bw-box .deal-card .deal-card-photo img {
+  width: 100%;
+}
+
+main .deal .bw-box .deal-card .deal-card-description {
+  width: 100%;
+  height: 110px;
+  background-color: #22262E;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+main .deal .bw-box .deal-card .deal-card-description p {
+  padding: 16px 16px 26px 16px;
+}
+
+main .deal .bw-box .deal-card .deal-card-description div {
+  padding-left: 16px;
+  font-size: 10px;
+}
+
+main .deal .bw-box .deal-card .deal-card-bottom {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  background-color: #313439;
+}
+
+main .deal .bw-box .deal-card .deal-card-bottom img {
+  margin: 18px;
+}
+
+main .deal .bw-box .deal-card .deal-card-bottom .price {
+  position: absolute;
+  color: white;
+  bottom: 7px;
+  right: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+main .deal .bw-box .deal-card .deal-card-bottom .old-price {
+  position: absolute;
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
+  bottom: 34px;
+  right: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+main .deal .bw-box .deal-card:last-child {
+  margin-right: 0;
+}
+
+main .articles .bw-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .articles h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-left: 162px;
+}
+
+main .articles .article-card {
+  width: 309px;
+  height: 450px;
+  margin-right: 30px;
+  margin-bottom: 90px;
+}
+
+main .articles .article-card .article-card-photo {
+  width: 100%;
+}
+
+main .articles .article-card .article-card-photo img {
+  width: 100%;
+}
+
+main .articles .article-card .article-card-description {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: #22262E;
+}
+
+main .articles .article-card .article-card-description p {
+  padding: 16px;
+  font-weight: 600;
+}
+
+main .articles .article-card .article-card-description p:first-child {
+  color: grey;
+  font-weight: bold;
+}
+
+main .articles .article-card .article-card-description span {
+  display: inline-block;
+  padding: 16px 16px 28px 16px;
+  color: #d1d1d1;
+}
+
+main .articles .article-card .article-card-description h6 {
+  text-align: end;
+  padding: 16px;
+  color: grey;
+}
+
+main .articles .article-card .article-card:nth-child(3) {
+  margin-right: 0;
+}
+
+main .evidence {
+  margin-top: 120px;
+}
+
+main .evidence h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin-left: 164px;
+  margin-bottom: 60px;
+}
+
+main .evidence .bw-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .evidence .deal-card {
+  width: 232px;
+  height: 307px;
+  background-color: #fff;
+  margin-right: 30px;
+  margin-bottom: 140px;
+}
+
+main .evidence .deal-card .deal-card-photo {
+  width: 100%;
+  padding: 16px;
+}
+
+main .evidence .deal-card .deal-card-photo img {
+  width: 100%;
+}
+
+main .evidence .deal-card .deal-card-description {
+  width: 100%;
+  height: 110px;
+  background-color: #22262E;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+main .evidence .deal-card .deal-card-description p {
+  padding: 16px 16px 26px 16px;
+}
+
+main .evidence .deal-card .deal-card-description div {
+  padding-left: 16px;
+  font-size: 10px;
+}
+
+main .evidence .deal-card .deal-card-bottom {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  background-color: #313439;
+}
+
+main .evidence .deal-card .deal-card-bottom img {
+  margin: 18px;
+}
+
+main .evidence .deal-card .deal-card-bottom .price {
+  position: absolute;
+  color: white;
+  bottom: 7px;
+  right: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+main .evidence .deal-card .deal-card-bottom .old-price {
+  position: absolute;
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
+  bottom: 34px;
+  right: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+main .evidence .deal-card:last-child {
+  margin-right: 0;
+}
+
+main .sets h1 {
+  margin-left: 164px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-bottom: 60px;
+}
+
+main .sets .set-left-photo {
+  width: 48%;
+}
+
+main .sets .set-left-photo .sets-left-photo-image img {
+  width: 100%;
+}
+
+main .sets .set-left-photo .set-left-photo-description {
+  height: 72px;
+  background-color: #22262E;
 }
