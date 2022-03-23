@@ -27,5 +27,21 @@ main{
     width: 100%;
     height: 453px;
     background-image: url('img/Rectangle.png');
+    color: white;
+    .jumbotron_box{
+      width: calc(100% - 330px);
+      padding: 88px 165px 10px 165px;
+      
+      h5{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: $secondary_character;
+      }
+      h6{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: $primary_character;
+      }
+    }
   }
 }
