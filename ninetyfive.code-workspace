@@ -16,6 +16,7 @@
 			"/main.scss",
 		],
 		"liveSassCompile.settings.generateMap": false,
-		"liveSassCompile.settings.showOutputWindow": true
+		"liveSassCompile.settings.showOutputWindow": true,
+		"liveServer.settings.port": 5501
 	}
 }
